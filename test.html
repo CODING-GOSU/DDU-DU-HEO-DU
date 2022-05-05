@@ -2,54 +2,66 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    
-    <title>hodustagram</title> 
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="test.css">    
+        <title>On The West Ground</title> 
 </head>
+
 <body>
-<div class="upper">
-    <div class="phone">
-        <img src="./phone.png" alt="phone">
-    </div>
-    <div class="insta logo">
-        <img src="./logo.png" alt="logo">
-        <form>
-            <input type="text">
-            <input type="password">
-            <input type="submit">
-        </form>
-    </div>
-</div>
-
-<div class="divider">
-    <span>또는</span>
-</div>
-
-<div class="middle">
-    <a href="">Facebook으로 로그인</a>
-    <a href="">비밀번호를 잊으셨나요?</a>
-</div>
-
-<div class="가입">
-    <span>계정이 없으신가요?</span>
-        <a href="">가입하기</a>
-</div>
-
-<div class="lower">
-    <div class="end">
-        <div>
-            <span>앱을 다운로드 하세요</span>
+    <div class="top">
+        <div class="left_phone">
+            <img class="phone_img" src="./phone.png" alt="phone">
         </div>
-        <div>
-            <a href=""><img src="./apple.png" alt=""></a>
-            <a href=""><img src="./google.png" alt=""></a>
+
+       <div class="right">
+            <div class="menu"><img class="logo" src="./logo.png" alt="logo">
+                <form>
+                    <input type="text" placeholder="전화번호, 사용자 이름 또는 이메일">
+                    <input class="password_input" type="password" placeholder="비밀번호">
+                    <input class="submit_btn" type="submit">
+                </form>
+                <div class="text_divider">
+                    <div class="divider"></div>
+                    <span>또는</span>
+                    <div class="divider"></div>
+                </div>
+
+                <div class="login2">
+                    <a href="" class="facebook_link">
+                        <i class="fa-brands fa-facebook-square facebook_icon"></i><span>Facebook으로 로그인</span>
+                    </a>
+                    <a href="" class="forgot">
+                        <span>비밀번호를 잊으셨나요?</span>
+                    </a>
+                </div>
+            </div> 
+
+
+            <div class="lower">
+                <div class="sign_up">
+                    <span>계정이 없으신가요?</span>
+                        <a href="" class="sign_btn">
+                            <span>가입하기</span>
+                        </a>
+                </div>
+                <div class="end">
+                    <div>
+                        <span>앱을 다운로드 하세요</span>
+                    </div>
+                    <div class="login_icon">
+                        <a href=""><img class="apple_img" src="./apple.png" alt=""></a>
+                        <a href=""><img class="google_img" src="./google.png" alt=""></a>
+                    </div>
+                </div>    
+            </div>
         </div>
     </div>
-    
-    <div class="list">
-        <ul>
+
+
+    <div class="bottom">
+        <ul class="list">
             <li>Meta</li>
             <li>소개</li>
             <li>블로그</li>
@@ -68,13 +80,15 @@
             <li>음악</li>
             <li>시각 예술</li>
         </ul>
-        <form action="">
-            <input type="text">
-        </form>
-       <span>copyright Instagram from Meta</span>
+        <div class="etc">
+            <div class="etc1">
+                <span>한국어</span>
+            </div>
+            <div class="etc2">
+                <span>© 2022 Instagram from Meta</span>
+            </div>
+        </div>
+
     </div>
-</div>
-
-
 </body>
 </html>

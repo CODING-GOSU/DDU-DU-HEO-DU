@@ -1,0 +1,25 @@
+body{
+    background-color: black;
+    height: 100vh;
+    }
+
+
+    .red{
+        background-color: red;
+        width: 150px;
+        height: 150px;
+        
+    }
+
+    .blue1{
+        width: 200px;
+        height: 200px;
+        background-color: blue;
+
+    }
+    .blue2{
+        width: 200px;
+        height: 200px;
+        background-color: blue;
+    }
+    

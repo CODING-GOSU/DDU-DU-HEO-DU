@@ -1,0 +1,10 @@
+body {
+    width: 100vh;
+    background-color: black;
+}
+.red{
+    width: 33px;
+    height: 33px;
+    background-color: red;
+
+}
