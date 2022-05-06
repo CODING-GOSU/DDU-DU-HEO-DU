@@ -6,71 +6,130 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Instagram</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
     <div class="upper">
         <div class="logo">
-            <img src="./logo.png" alt="">
+            <img class="insta" src="./logo.png" alt="">
         </div>
-        <input type="text" placeholder="검색">
-        <a href="">
-            <img src="" alt="">
-        </a>
-        <a href="">
-            <i class="fa-solid fa-heart"></i>
-        </a>
-        <a href="">
-            <i class="fa-solid fa-heart"></i>
-        </a>
-        <a href="">
-            <i class="fa-solid fa-heart"></i>
-        </a>
-        <a href="">
-            <i class="fa-solid fa-heart"></i>
-        </a>
-        <a href="">
-            <i class="fa-solid fa-heart"></i>
-        </a>
-        <a href="">
-            <i class="fa-solid fa-heart"></i>
-        </a>
+        <input class="search" type="text" placeholder=" 검색">
+        <div class="function">
+            <a href="">
+                <i class="fa-solid fa-house icon"></i>
+            </a>
+            <a href="">
+                <i class="fa-regular fa-paper-plane icon"></i>
+            </a>
+            <a href="">
+                <i class="fa-regular fa-square-plus icon"></i>
+            </a>
+            <a href="">
+                <i class="fa-regular fa-compass icon"></i>
+            </a>
+            <a href="">
+                <i class="fa-regular fa-heart icon"></i>
+            </a>
+            <a href="">
+                <i class="fa-regular fa-user icon"></i>
+            </a>
+        </div>
+       
     </div>
     <div class="story">
-        <a href=""><img src="./chipmunk-47372_640.png" alt=""></a>
-        <a href=""><img src="./chipmunk-47372_640.png" alt=""></a>
-        <a href=""><img src="./chipmunk-47372_640.png" alt=""></a>
+        <a href="" class="story_group">
+            <img class="circle" src="./story.png" alt="">
+            <span>name</span>
+        </a>
+        <a href="" class="story_group">
+            <img class="circle" src="./story.png" alt="">
+            <span>name</span>
+        </a>
+        <a href="" class="story_group">
+            <img class="circle" src="./story.png" alt="">
+            <span>name</span>
+        </a>
+        <a href="" class="story_group">
+            <img class="circle" src="./story.png" alt="">
+            <span>name</span>
+        </a>
+        <a href="" class="story_group">
+            <img class="circle" src="./story.png" alt="">
+            <span>name</span>
+        </a>
+        <a href="" class="story_group">
+            <img class="circle" src="./story.png" alt="">
+            <span>name</span>
+        </a>
+        <a href="" class="story_group">
+            <img class="circle" src="./story.png" alt="">
+            <span>name</span>
+        </a>
+
+   
     </div>
 
     <div class="side bar-right"></div>
     <div class="post">
-        <ul class='action'>
-            <li>
-                <button><i class="fa-solid fa-heart"></i></button>
-            </li>
-            <li>
-                <button><i class="fa-solid fa-heart"></i></button>
-            </li>
-            <li>
-                <button><i class="fa-solid fa-heart"></i></button>
-            </li>
-            <li>
-                <button><i class="fa-solid fa-heart"></i></button>
-            </li>
-        </ul>
-        <div class='view'></div>
-            <span>조회 1,858회</span>
-        <div class='content'>
-            <a href="">
-                <span class='name'>pugings</span>
-            </a>
-            <span>Bath time~~~</span>
+        <div class="profileBox">
+            <div class="me">
+                <img class="profile_img" src="./story.png" alt="">
+                <span class="cat_name">real_angel</span>
+            </div>
+           
+            <div class="ellip">
+                <i class="fa-solid fa-ellipsis"></i>
+            </div>
         </div>
-        <span class='made'>18시간 전</span>
-        <div class='comment_container'>
-            <input type="text" placeholder="글쓰시오">
-            <a href="">
-                게시하기
-            </a>
+        <div class="contents">
+            <img class="cat" src="./real angel.jpg" alt="">
+        </div>
+        <div class="bot_func">
+                <ul class="act">
+                    <div class="action1">
+                        <li>
+                            <a href="" class="action">
+                                <i class="fa-regular fa-heart icon"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" class="action">
+                                <i class="fa-regular fa-comment icon"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" class="action">
+                                <i class="fa-regular fa-paper-plane icon"></i>
+                            </a>
+                        </li>
+                    </div>
+                    
+                    <li>
+                        <a href="" class="action2">
+                            <i class="fa-regular fa-bookmark icon"></i>
+                        </a>
+                    </li>
+                </ul>
+            
+            <span class="view">조회 1,858회</span>
+            <div class='detail'>
+                <a href="">
+                    <span class='name'>real_angel</span>
+                </a>
+                <span>cat saves the world</span>
+            </div>
+                <span class='made'>18시간 전</span>
+            <div class="divider"></div>
+            <div class='comment_container'>
+                <div class="comment_group">
+                    <i class="fa-regular fa-face-smile smile"></i>
+                    <input class="posting" type="text" placeholder="댓글 달기...">
+                </div>
+                <a href="" class="submit">
+                    게시
+                </a>
+        </div>
+        
     </div>
 
 </body>
