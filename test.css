@@ -70,7 +70,7 @@ body{
 
 input{
     width: 100%;
-    color: #e9e9e9;
+    color: #989898;
     background-color: #FAFAFA;
     border : 1px solid rgba(0,0,0,0.02);
     padding: 10px;
@@ -79,16 +79,47 @@ input{
     margin-bottom: 5px;
 }
 
-.password_input{
-    margin-bottom: 15px;
+.id{
+    position: relative;
     
 }
+
+.idText{
+ display: none;
+}
+
+.pw{
+    position: relative;
+    margin-bottom: 15px;
+
+}
+
+.pwText{
+    justify-content: end;
+}
+
+
+.id:focus{
+    outline: 1px solid #DEDEDE;
+}
+
+.pw:focus{
+    outline: 1px solid #DEDEDE;
+}
+
+
+
 .submit_btn{
+    text-align: center;
     background-color: #0096F6;
     color: white;
     border: none;
     width: 109%;
     height: 32px;
+}
+
+.submit_btn:focus{
+    background-color: #6CC0F8;
 }
 
 .text_divider{
